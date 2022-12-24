@@ -31,7 +31,7 @@ Route::post('login', [LoginController::class, 'login']);
 
 Route::put('logout', [LoginController::class, 'logout']);
 
-//Route::apiResource('users', UserController::class);
+Route::apiResource('users', UserController::class);
 
 Route::apiResource('marcas', MarcaController::class);
 
